@@ -3,8 +3,8 @@
 ### Way 1 Taking input from user
 
 def rev_string(int_str):
-    reversed_str = int_str[::-1]
-    return reversed_str
+    rev_str = int_str[::-1]
+    return rev_str
     
 int_str = input("Enter a string: ")
 result = rev_string(int_str)
